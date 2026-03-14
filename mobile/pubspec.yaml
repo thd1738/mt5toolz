@@ -1,0 +1,15 @@
+name: mt5_mobile_robot
+version: 1.0.0+1
+description: iOS-first mobile trading robot client for MetaTrader 5.
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+
+flutter:
+  uses-material-design: true
